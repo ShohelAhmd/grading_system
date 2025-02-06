@@ -1,6 +1,6 @@
 var marks=prompt("Enter your marks : ");
 
-if (marks>100)
+if (marks>100||marks<0)
     document.write("Invalide");
 
 else if(marks>=80 && marks<=100)
